@@ -1,0 +1,163 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-color: rgba(172, 255, 47, 0.137);
+}
+.mainContainer
+{
+    height:100vh;
+    display: grid;
+    grid-template-rows: 18% 1fr;
+
+}
+.title
+{
+    margin-left: 7%;
+    padding-top: 3%;
+}
+.newsIcon
+{
+    color: green;
+}
+
+.divApiNewsData
+{
+    background-color:rgba(255, 255, 255, 0.342);
+    display: grid;
+    grid-template-rows: 12% 1fr;
+
+}
+.newsSata
+{
+    position: relative;
+}
+.news
+{
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    top:2%;
+    bottom: 2%;
+    overflow: auto;
+
+}
+
+.data
+{
+    
+    display: grid;
+    grid-template-columns: 27% 1fr;
+    padding: 1%;
+    background-color:whitesmoke;
+    margin: 3%;
+    overflow: auto;
+
+}
+.img img{
+    height: 100%;width: 100%;
+}
+
+.content h1
+{
+    margin-left: 5%;
+    font-size: 27px;
+    font-weight: bold;
+ }
+ .DataDiscription
+ {
+     margin-top: 3%;
+ }
+ .DataDiscription b
+ {
+    margin-left: 2%;
+    font-size: 17px;
+    font-weight: bolder;
+     
+ }
+ .timeDiv
+ {
+    position: relative;
+    margin-top: 2%;
+
+ }
+ .time
+ {
+     position: absolute;
+     margin-left: 4%;
+     color: red;
+     margin-top: 2%;
+     font-size: 20px;
+     right: 2%;
+
+ }
+ .author
+ {
+    position: relative;
+    margin-top: 2%;
+     
+ }
+ .author b
+ {
+     position: absolute;
+     right: 2%;
+ }
+
+ .LinkDiv
+{
+ position: relative;
+
+}
+a{
+    text-decoration: none;
+}
+.Link
+{
+    position: absolute;
+    left: 2%;
+    top: 1.5%;
+    right: 2%;
+    bottom: 3%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+.Link div
+{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  padding: 3px;
+  cursor: pointer;
+  
+  
+}
+.Link div:hover
+{
+    background-color: rgba(255, 255, 255, 0.582);
+
+}
+
+.Link div .icon
+{
+    background-color: white;
+    height: 75px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 2%;
+    margin-left: 20%;
+    
+    margin-top: 15%;
+}
+.Link div .icon i
+{
+    font-size: 30px;
+}
