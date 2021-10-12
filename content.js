@@ -1,5 +1,5 @@
 chrome.runtime.onMessage.addListener((msg)=>{
     console.log(msg);
-    console.log("amit")
+    console.log("nikhil")
     alert("Hello  "+msg);
  });
