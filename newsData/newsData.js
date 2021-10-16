@@ -16,7 +16,7 @@ newsData=new Promise((resolve,reject)=>{
 .catch((err)=>{console.log(err)})
 
 
-
+        
 
 
 //Function for setDataToHtml
@@ -64,4 +64,4 @@ function setDataToHtml(imgUrl,title,content,author,time)
                            <div class="author"><b>Manish Singh</b></div>
                         </div>
 
-                    </div> */}
+   
